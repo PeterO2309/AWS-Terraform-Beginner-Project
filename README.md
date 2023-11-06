@@ -58,7 +58,6 @@ Task: Launch EC2 instances in the default VPC.
 
 * Verify Resource Creation: Ensure that all the necessary AWS resources, including the S3 bucket, IAM role, IAM instance profile, and EC2 instance, have been successfully created using the provided Terraform configurations.
 * Upload two objects of your choice to the s3 bucket
-* (Optional: Upload your current resume to the s3 bucket)
 
 # Phase 5: EC2 and S3 Interaction
 Task: Write a Python script to demonstrate EC2 instances accessing the S3 bucket.
@@ -90,5 +89,4 @@ python3 main.py
 python3 presigned-url.py
 ``````
 * The presigned URLs for the objects in your S3 bucket should be printed on your EC2 instance's terminal
-* Send me the presigned URL on Slack so I can download the object. 
-* Push all your codes to GitHub and submit the link to the repository as part of your solution
+
